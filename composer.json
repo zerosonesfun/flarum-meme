@@ -1,0 +1,43 @@
+{
+    "name": "zerosonesfun/flarum-meme",
+    "description": "A MEME BBCode.",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "require-dev": {
+        "flarum/testing": "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "Billy Wilcosky",
+            "email": "billy@wilcosky.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ZerosOnesFun\\Meme\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZerosOnesFun\\Meme\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Meme",
+            "category": "features",
+            "icon": {
+                "name": "fas fa-cat",
+                "backgroundColor": "#ddd",
+                "color": "#000"
+            }
+        }
+    }
+}
